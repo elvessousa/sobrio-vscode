@@ -92,7 +92,7 @@
 				"variable"
 			],
 			"settings": {
-				"foreground": "#d7d7ff"
+				"foreground": "#ddd"
 			}
 		},
 		{
@@ -138,7 +138,8 @@
 				"storage.type.js",
 				"storage.type.namespace.directive.cpp",
 				"storage.type.ts",
-				"storage.type.tsx"
+				"storage.type.tsx",
+				"storage.type.rust"
 			],
 			"settings": {
 				"foreground": "#7cdce7",
@@ -343,7 +344,6 @@
 				"constant.escape",
 				"constant.language",
 				"constant.numeric",
-				"keyword.other.unit",
 				"keyword.other",
 				"support.constant",
 				"variable.parameter"
@@ -400,6 +400,7 @@
 				"entity.name.type.primitive.rust",
 				"entity.name.type.ts",
 				"entity.name.type.tsx",
+				"entity.other.attribute-name.namespace.xml",
 				"entity.other.attribute-name.js",
 				"entity.other.attribute-name.tsx",
 				"meta.function.definition.rust",
@@ -460,10 +461,12 @@
 		{
 			"name": "Attributes",
 			"scope": [
-				"entity.other.attribute-name"
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name.localname.xml"
 			],
 			"settings": {
-				"foreground": "#d7af87"
+				"foreground": "#d7af87",
+				"fontStyle": "italic"
 			}
 		},
 		{
