@@ -14,7 +14,7 @@
             {
                 "label": "Sobrio",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Sobrio-color-theme.json"
+                "path": "./themes/sobrio-color-theme.json"
             }
         ]
     }

@@ -2,7 +2,9 @@
 	"name": "sobrio",
 	"type": "dark",
 	"colors": {
-		"activityBar.background": "#181818",
+		"activityBar.activeBackground": "#181818",
+		"activityBar.activeBorder": "#d7af87",
+		"activityBar.background": "#111",
 		"activityBar.border": "#202020",
 		"activityBarBadge.background": "#d7af87",
 		"activityBarBadge.foreground": "#000",
@@ -14,8 +16,10 @@
 		"dropdown.listBackground": "#303030",
 		"editor.background": "#202020",
 		"editor.foreground": "#fff",
-		"editor.selectionBackground": "#333",
-		"editorGroupHeader.tabsBackground": "#202020",
+		"editor.lineHighlightBackground": "#121212",
+		"editor.selectionBackground": "#121212",
+		"editorGroupHeader.tabsBackground": "#181818",
+		"editorIndentGuide.background": "#3a3b3f",
 		"editorLineNumber.activeForeground": "#afafaf",
 		"editorLineNumber.foreground": "#333333",
 		"focusBorder": "#3a3b3f",
@@ -27,8 +31,13 @@
 		"input.foreground": "#afafaf",
 		"list.activeSelectionBackground": "#303030",
 		"list.hoverBackground": "#202020",
+		"menu.selectionBackground": "#202020",
+		"menu.separatorBackground": "#111",
 		"panel.background": "#181818",
 		"panel.border": "#202020",
+		"panelTitle.activeBorder": "#d7af87",
+		"scrollbar.shadow": "#181818",
+		"settings.modifiedItemIndicator": "#d7af87",
 		"sideBar.background": "#181818",
 		"sideBar.border": "#202020",
 		"sideBar.foreground": "#ccc",
@@ -36,8 +45,11 @@
 		"sideBarTitle.foreground": "#bbbbbb",
 		"statusBar.background": "#87afd7",
 		"statusBar.foreground": "#000",
-		"tab.inactiveBackground": "#202020",
-		"tab.inactiveForeground": "#5f5f5f",
+		"tab.activeBorder": "#d7af87",
+		"tab.border": "#181818",
+		"tab.hoverForeground": "#fff",
+		"tab.inactiveBackground": "#181818",
+		"tab.inactiveForeground": "#3a3b3f",
 		"terminal.ansiBlack": "#3a3b3f",
 		"terminal.ansiBlue": "#87afd7",
 		"terminal.ansiBrightBlack": "#5f5f5f",
@@ -54,8 +66,13 @@
 		"terminal.ansiRed": "#c50",
 		"terminal.ansiWhite": "#fff",
 		"terminal.ansiYellow": "#d7af87",
-		"titleBar.activeBackground": "#181818",
-		"titleBar.activeForeground": "#F6FBFB"
+		"terminal.background": "#111",
+		"textLink.foreground": "#d7af87",
+		"titleBar.activeBackground": "#111",
+		"titleBar.activeForeground": "#ccc",
+		"titleBar.border": "#202020",
+		"titleBar.inactiveBackground": "#111",
+		"titleBar.inactiveForeground": "#303030"
 	},
 	"tokenColors": [
 		{
@@ -73,7 +90,8 @@
 			"name": "Common Text, Other keys",
 			"scope": [
 				"string.quoted.double.json",
-				"string.unquoted.plain.out.yaml"
+				"string.unquoted.plain.out.yaml",
+				"meta.jsx.children"
 			],
 			"settings": {
 				"foreground": "#fff"
@@ -249,6 +267,7 @@
 				"entity.name.type.interface.ts",
 				"entity.name.type.interface.tsx",
 				"entity.name.type.struct.rust",
+				"entity.name.type.class.php",
 				"meta.function-call.tsx",
 				"meta.function-call",
 				"meta.function.call.rust",
@@ -270,7 +289,10 @@
 				"support.class.component.js",
 				"support.class.component.tsx",
 				"support.function.magic.php",
-				"support.function.misc.scss"
+				"support.function.misc.scss",
+				"entity.other.inherited-class.php",
+				"support.function.constructor.php"
+
 			],
 			"settings": {
 				"foreground": "#7cdce7",
@@ -318,7 +340,7 @@
 		{
 			"name": "Types",
 			"scope": [
-				"meta.block variable.other"
+				"meta.block variable.other",
 			],
 			"settings": {
 				"foreground": "#eeeeee"
@@ -331,7 +353,8 @@
 				"string.other.link",
 				"support.other.variable",
 				"variable.language.super.rust",
-				"variable.parameter.tsx"
+				"variable.parameter.tsx",
+				"constant.language.symbol.elixir"
 			],
 			"settings": {
 				"foreground": "#d7af87"
@@ -361,17 +384,9 @@
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.string.begin.js",
-				"punctuation.definition.string.begin.ts",
-				"punctuation.definition.string.begin.tsx",
-				"punctuation.definition.string.begin.xml",
-				"punctuation.definition.string.end.html",
-				"punctuation.definition.string.end.js",
-				"punctuation.definition.string.end.ts",
-				"punctuation.definition.string.end.tsx",
-				"punctuation.definition.string.end.xml",
 				"punctuation.definition.string.rust",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
 				"string",
 			],
 			"settings": {
@@ -385,13 +400,13 @@
 				"markup.changed.git_gutter",
 				"meta.use.php",
 				"support.class",
-				"support.orther.namespace.use.php",
+				"support.other.namespace.use.php",
 				"support.other.namespace.php",
 				"support.type.sys-types",
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#fd6389"
+				"foreground": "#fd6389",
 			}
 		},
 		{
@@ -408,6 +423,8 @@
 				"support.type",
 				"variable.language.self.rust",
 				"variable.language.special.self.python",
+				"entity.name.type.module.elixir",
+				"variable.other.constant.elixir"
 			],
 			"settings": {
 				"foreground": "#afafaf",
