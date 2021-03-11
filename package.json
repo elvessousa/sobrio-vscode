@@ -1,13 +1,21 @@
 {
     "name": "sobrio",
-    "displayName": "sobrio",
-    "description": "A theme for VSCode with sober color",
+    "displayName": "Sobrio",
+    "description": "A theme for VSCode with sober colors, hence the name.",
     "version": "0.0.1",
+    "publisher": "elvessousa",
     "engines": {
         "vscode": "^1.54.0"
     },
     "categories": [
         "Themes"
+    ],
+    "tags": [
+        "color-theme",
+        "dark-theme",
+        "sober",
+        "sobrio",
+        "Theme"
     ],
     "contributes": {
         "themes": [
