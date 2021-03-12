@@ -1,13 +1,75 @@
-# README
-## This is the README for your extension "sobrio"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+<h1 align="center"> Sobrio theme </h1>
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+![Screen shot](./images/screenshot.png)
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## About this theme
 
-**Enjoy!**
+Sobrio is a theme for **Visual Studio Code**, with sober colors (at least for me), hence the name.
+The font used in the screenshots is Victor Mono. I tested it with the following following languages:
+
+- CSS / Sass / SCSS
+- Elixir
+- HTML / SVG / XML
+- JavaScript / Typescript / JSX / TSX
+- JSON
+- Markdown
+- PHP
+- Python
+- Rust
+- YAML
+
+---
+
+## Installation
+
+To use it, follow these steps:
+
+1. Search for `sobrio` in the VSCode Extensions Marketplace
+2. Change the color scheme `Sobrio` in the **Color Theme** settings list
+3. ???
+4. Profit!
+
+---
+
+## Screenshots
+
+### HTML
+![HTML](./images/html.png)
+
+### JavaScript / Typescript
+![JavaScript](./images/js.png)
+
+### React
+![JavaScript](./images/jsx-tsx.png)
+
+### CSS
+![CSS](./images/css.png)
+
+### SCSS
+![SCSS](./images/scss.png)
+
+### Sass
+![Sass](./images/sass.png)
+
+### SVG
+![SVG](./images/svg.png)
+
+### YAML
+![YAML](./images/yaml.png)
+
+### JSON
+![JSON](./images/json.png)
+
+### Python
+![Python](./images/python.png)
+
+### PHP
+![PHP](./images/php.png)
+
+### Rust
+![Rust](./images/rust.png)
+
+### C++
+![C++](./images/cpp.png)
+
+Take cake!

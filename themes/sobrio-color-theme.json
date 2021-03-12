@@ -72,7 +72,7 @@
 		"titleBar.activeForeground": "#ccc",
 		"titleBar.border": "#202020",
 		"titleBar.inactiveBackground": "#111",
-		"titleBar.inactiveForeground": "#303030"
+		"titleBar.inactiveForeground": "#ccc"
 	},
 	"tokenColors": [
 		{
