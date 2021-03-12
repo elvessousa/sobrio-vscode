@@ -4,6 +4,11 @@
     "description": "A theme for VSCode with sober colors, hence the name.",
     "version": "0.0.1",
     "publisher": "elvessousa",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/elvessousa/sobrio-vscode"
+    },
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.54.0"
     },
@@ -13,9 +18,10 @@
     "tags": [
         "color-theme",
         "dark-theme",
+        "dark",
         "sober",
         "sobrio",
-        "Theme"
+        "theme"
     ],
     "contributes": {
         "themes": [
