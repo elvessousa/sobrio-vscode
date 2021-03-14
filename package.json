@@ -2,7 +2,7 @@
     "name": "sobrio",
     "displayName": "Sobrio",
     "description": "A theme for VSCode with sober colors, hence the name.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "elvessousa",
     "repository": {
         "type": "git",

@@ -23,6 +23,8 @@
 		"editorLineNumber.activeForeground": "#afafaf",
 		"editorLineNumber.foreground": "#333333",
 		"focusBorder": "#3a3b3f",
+		"gitDecoration.ignoredResourceForeground": "#3a3b3f",
+		"gitDecoration.untrackedResourceForeground": "#d7d7ff",
 		"gitDecoration.addedResourceForeground": "#7cdce7",
 		"gitDecoration.deletedResourceForeground": "#fd6389",
 		"gitDecoration.modifiedResourceForeground": "#d7af87",
@@ -44,6 +46,12 @@
 		"sideBarSectionHeader.background": "#181818",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"statusBar.background": "#d7af87",
+		"statusBar.noFolderBackground": "#000000",
+		"statusBar.noFolderForeground": "#d7af87",
+		"statusBar.debuggingBackground": "#fd6389",
+		"statusBar.debuggingForeground": "#000000",
+		"checkbox.background": "#000000",
+		"checkbox.foreground": "#dfaf87",
 		"statusBar.foreground": "#000",
 		"tab.activeBorder": "#d7af87",
 		"tab.border": "#181818",
@@ -66,6 +74,7 @@
 		"terminal.ansiRed": "#c50",
 		"terminal.ansiWhite": "#fff",
 		"terminal.ansiYellow": "#d7af87",
+		"textLink.activeForeground": "#ffffff",
 		"terminal.background": "#111",
 		"textLink.foreground": "#d7af87",
 		"titleBar.activeBackground": "#111",
@@ -533,7 +542,7 @@
 				"markup.inserted"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#7cdce7"
 			}
 		},
 		{
