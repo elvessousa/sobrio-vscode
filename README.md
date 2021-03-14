@@ -5,7 +5,7 @@
 ## About this theme
 
 Sobrio is a theme for **Visual Studio Code**, with sober colors (at least for me), hence the name.
-The font used in the screenshots is Victor Mono. I tested it with the following following languages:
+The font used in the screenshots is Victor Mono. I tested it with the following languages:
 
 - CSS / Sass / SCSS
 - Elixir
@@ -24,8 +24,8 @@ The font used in the screenshots is Victor Mono. I tested it with the following 
 
 To use it, follow these steps:
 
-1. Search for `sobrio` in the VSCode Extensions Marketplace
-2. Change the color scheme `Sobrio` in the **Color Theme** settings list
+1. Search for `sobrio` in the VSCode Extensions Marketplace and **install** it!
+2. Set the color scheme to `Sobrio` in the **Color Theme** settings
 3. ???
 4. Profit!
 
