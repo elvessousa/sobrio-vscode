@@ -18,6 +18,8 @@
     "tags": [
         "color-theme",
         "dark-theme",
+        "light-theme",
+        "light",
         "dark",
         "sober",
         "sobrio",
@@ -29,6 +31,11 @@
                 "label": "Sobrio",
                 "uiTheme": "vs-dark",
                 "path": "./themes/sobrio-color-theme.json"
+            },
+            {
+                "label": "Sobrio Light",
+                "uiTheme": "vs",
+                "path": "./themes/sobrio-light-color-theme.json"
             }
         ]
     }
